@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Jeu des acronymes</h1>
+
+    <div id="game">
+        <form action="" id="answer-form" method="POST" autocomplete="off">
+          <div id="game-question">
+            Première question: que signifie BN ? 
+          </div>
+          <div class="game-answer">
+            <label 
+              class="answer-label"
+              for="field-username"
+            >
+              votre réponse
+            </label>
+            <input
+            class="answer-input"
+            id="answer-input"
+            name="username"
+            type="text"
+            value=""
+          />
+        </div>
+        </form>
+        <div id="answer-results"></div>
+        <div id="next-question"></div>
+        </div>
+        <script src="app.js"></script>
+</body>
+</html>
